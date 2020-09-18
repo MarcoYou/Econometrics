@@ -1,8 +1,9 @@
 # Problem 1 (Law of Large Numbers)
 # Let X be a random variable representing the roll of a fair dice.
-# Write the R code to show the Law of Large Numbers in action. Build a Monte Carlo experiment in which you set the sample size n equal to 2, 25, 100 and 1000 and
+# Write the R code to show the Law of Large Numbers in action. Build a Monte Carlo experiment
+# in which you set the sample size n equal to 2, 25, 100 and 1000 and
 # 1. show that the range of variation of the sample average $\bar{X}$ shrinks.
-# 2. represent graphically the four cases as in slide 18 in my Class 1 presentation. \\
+# 2. represent graphically the four cases as in slide 18 in my Class 1 presentation. 
 
 # [0]
 set.seed(1)
