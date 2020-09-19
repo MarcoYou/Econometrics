@@ -9,7 +9,7 @@ def LLN(iteration, sample_size):
     
     pop_mean = (1+2+3+4+5+6)/6
     mean_dice = []
-    y = np.full(100, 1/6)
+    y_value = np.full(100, 1/6)
     
     for i in range(iteration):
         dice_array = np.random.randint(1, 7, (1, sample_size))
@@ -20,7 +20,7 @@ def LLN(iteration, sample_size):
 
     plt.tight_layout()
     
-    plt.plot(mean_array, intercepts, 'o')
+    plt.plot(mean_array, y_value, 'o')
     plt.axvline(x = pop_mean, color = 'red')
     plt.axvline(x = sample_mean, color = 'blue')
     plt.xlim(1, 6)
